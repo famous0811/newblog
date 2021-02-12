@@ -1,7 +1,7 @@
 const color={
-    base:"#9FA0FF",
-    main:"#8E66FF",
-    accent:"#9C2CFF"
+    base:"#EFF1E9",
+    main:"#B5480E",
+    brown:"#DDAA85"
 }
 
 export default color;

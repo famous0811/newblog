@@ -33,9 +33,8 @@ body {
 .projects {
   width: 100%;
   height: 100%;
-  margin-top: 30px;
-  
   overflow: auto;
+  background:$brown;
 }
 
 .introduced {
@@ -80,15 +79,26 @@ body {
 }
 .setlanguage {
   width: 100%;
-  height: 100%;
+  display: flex;
+
+  & > button {
+    background: linear-gradient(90deg, $brown, $main);
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    color: #eff1e9;
+    outline: none;
+  }
 }
 
 .projectWrap {
-//   display: table;
-//   table-layout: fixed;
-display: flex;
-justify-content:space-around;
-flex-flow: row wrap;
+  //   display: table;
+  //   table-layout: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
   border-collapse: separate;
   border-spacing: 30px;
 }

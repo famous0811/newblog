@@ -23,6 +23,8 @@ const Wrap= styled.div`
     flex-direction:column;
     width:100%;
     height:100%;
+    max-width:600px;
+    max-height:500px;
     position:relative;
     background:white;
     margin:30px;
@@ -45,8 +47,7 @@ const Wrap= styled.div`
     &>div{
         margin:0 20px;
     }
-    max-width:600px;
-    max-height:500px;
+    
     /* width: 100%; */
 `;
 

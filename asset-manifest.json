@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/newblog/static/css/main.c42a7b7c.chunk.css",
-    "main.js": "/newblog/static/js/main.95017cc9.chunk.js",
-    "main.js.map": "/newblog/static/js/main.95017cc9.chunk.js.map",
-    "runtime-main.js": "/newblog/static/js/runtime-main.aa413b8e.js",
-    "runtime-main.js.map": "/newblog/static/js/runtime-main.aa413b8e.js.map",
-    "static/js/2.facf1b6b.chunk.js": "/newblog/static/js/2.facf1b6b.chunk.js",
-    "static/js/2.facf1b6b.chunk.js.map": "/newblog/static/js/2.facf1b6b.chunk.js.map",
-    "static/js/3.64edccad.chunk.js": "/newblog/static/js/3.64edccad.chunk.js",
-    "static/js/3.64edccad.chunk.js.map": "/newblog/static/js/3.64edccad.chunk.js.map",
+    "main.css": "/newblog/static/css/main.0ca9ca8e.chunk.css",
+    "main.js": "/newblog/static/js/main.8540656f.chunk.js",
+    "main.js.map": "/newblog/static/js/main.8540656f.chunk.js.map",
+    "runtime-main.js": "/newblog/static/js/runtime-main.6fb801c1.js",
+    "runtime-main.js.map": "/newblog/static/js/runtime-main.6fb801c1.js.map",
+    "static/js/2.8c732a1d.chunk.js": "/newblog/static/js/2.8c732a1d.chunk.js",
+    "static/js/2.8c732a1d.chunk.js.map": "/newblog/static/js/2.8c732a1d.chunk.js.map",
+    "static/js/3.a375cf68.chunk.js": "/newblog/static/js/3.a375cf68.chunk.js",
+    "static/js/3.a375cf68.chunk.js.map": "/newblog/static/js/3.a375cf68.chunk.js.map",
     "index.html": "/newblog/index.html",
-    "static/css/main.c42a7b7c.chunk.css.map": "/newblog/static/css/main.c42a7b7c.chunk.css.map",
-    "static/js/2.facf1b6b.chunk.js.LICENSE.txt": "/newblog/static/js/2.facf1b6b.chunk.js.LICENSE.txt",
-    "static/media/allblack.f3fe27ea.jpg": "/newblog/static/media/allblack.f3fe27ea.jpg"
+    "static/css/main.0ca9ca8e.chunk.css.map": "/newblog/static/css/main.0ca9ca8e.chunk.css.map",
+    "static/js/2.8c732a1d.chunk.js.LICENSE.txt": "/newblog/static/js/2.8c732a1d.chunk.js.LICENSE.txt",
+    "static/media/allblack.f3fe27ea.jpg": "/newblog/static/media/allblack.f3fe27ea.jpg",
+    "static/media/connecText_main.c5bcfa25.png": "/newblog/static/media/connecText_main.c5bcfa25.png",
+    "static/media/style.scss": "/newblog/static/media/test3.a9d042b0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa413b8e.js",
-    "static/js/2.facf1b6b.chunk.js",
-    "static/css/main.c42a7b7c.chunk.css",
-    "static/js/main.95017cc9.chunk.js"
+    "static/js/runtime-main.6fb801c1.js",
+    "static/js/2.8c732a1d.chunk.js",
+    "static/css/main.0ca9ca8e.chunk.css",
+    "static/js/main.8540656f.chunk.js"
   ]
 }

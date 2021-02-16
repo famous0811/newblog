@@ -35,11 +35,12 @@ function Mainpage() {
               <div className="section">
                 <div className="welcome">
                   <div className="basewrap">
-                    <h2>Allblack's Blog</h2>
-                    <div />
-                    <div>
+                    <div className="img background" />
+                    <div className="img">
                       <img src={Me} alt="" width="100%" height="100%" />
                     </div>
+                    <h2 className="title">Allblack's Blog</h2>
+
                     {/* 언어 선택 */}
                     <div className="setlanguage">
                       <button onClick={() => SettingLange(fullpageApi, "kor")}>
@@ -56,39 +57,42 @@ function Mainpage() {
               <div className="section">
                 <div className="myData">
                   <div className="basewrap">
-                    <div>
+                    <div className="aboutme">
                       <h2>ABMOUT ME</h2>
                     </div>
-                    <div>
-                      <h3>유명환</h3>
+                    <div className="datas">
+                      <h1>유명환</h1>
                       <ul>
                         <li>
-                          <p>선린인터넷 고등학교</p>
+                          <p>회사 : 선린인터넷 고등학교</p>
                         </li>
                         <li>
+                          <h3>기술스텍</h3>
                           <p>
-                            react-redux/mobx
-                            <br />
-                            nodejs
-                            <br />
-                            mongodb
-                            <br />
-                            typescript
+                            <div className="skillitem">react-redux/mobx</div>
+                            <div className="skillitem">nodejs</div>
+                            <div className="skillitem">mongodb</div>
+                            <div className="skillitem">typescript</div>
                           </p>
                         </li>
                         <li>
+                          <h3>연락처</h3>
                           <p>
-                            yum969315@gmail.com
-                            <br />
-                            umh0811@naver.com
-                            <br />
-                            카카오톡: umh0811
+                            <div className="skillitem">yum969315@gmail.com</div>
+                            <div className="skillitem">umh0811@naver.com</div>
+                            <div className="skillitem">카카오톡: umh0811</div>
                           </p>
                         </li>
                       </ul>
                     </div>
                     <div>
-                      <img src={Me} alt="" width="100%" height="100%" />
+                      <img
+                        className="img"
+                        src={Me}
+                        alt=""
+                        width="100%"
+                        height="100%"
+                      />
                     </div>
                   </div>
                 </div>
@@ -98,7 +102,7 @@ function Mainpage() {
                 <div className="introduced">
                   <div className="basewrap">
                     <h1>자기소개</h1>
-                    <div id="drive"/>
+                    <div id="drive" />
                     <p>
                       안녕하세요 독특하고 창의적인 개발자 유명환이라고 합니다.
                       저는 react를 이용한 front-end 개발을 공부하고 있으며{" "}

@@ -1,54 +1,18 @@
-import React from 'react';
-import colors from '../res/constants/color';
+import React from "react";
+import "./project.scss";
 
-import styled from 'styled-components';
-
-interface ProjectProps{
-    src:string;
-    comment:string;
+interface ProjectProps {
+  src: string;
+  comment: string;
 }
-function Project({src,comment}:ProjectProps) {
-    return (
-        <Wrap>
-            <img src={src} alt="" width="100%" height="100%"/>
-            <div>
-                <p>{comment}</p>
-            </div>
-        </Wrap>
-    );
+function Project({ src, comment }: ProjectProps) {
+  return (
+    <div className="projects">
+      <img src={src} alt="" width="100%" height="100%" />
+      <div className="comment">
+        <p>{comment}</p>
+      </div>
+    </div>
+  );
 }
-
-const Wrap= styled.div`
-    display:flex;
-    flex-direction:column;
-    width:100%;
-    height:100%;
-    max-width:600px;
-    max-height:500px;
-    position:relative;
-    background:white;
-    margin:30px;
-    /* margin:0 10px; */
-    &::before{
-        top:-15px;
-        right:50%;
-        content:"";
-        width:100px;
-        height:30px;
-        background:${colors.main};
-        position:absolute;
-        transform:translateX(50%);
-    }
-    &>img{
-        padding:10px;
-        max-width:600px;
-        max-height:300px;
-    }
-    &>div{
-        margin:0 20px;
-    }
-    
-    /* width: 100%; */
-`;
-
 export default Project;

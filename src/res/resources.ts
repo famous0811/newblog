@@ -10,10 +10,11 @@ export const resources = {
       project: "projects",
       Awards: "Awards",
       skills: "skills",
-      info: "infos",
+      info: "information",
       intro: "interduce",
       company: "company : sunrin internet high school",
       welcome: "I'm A unique and creative developer famous Yoo Myunghwan",
+      introduce:"hello ",
     },
   },
   kor: {

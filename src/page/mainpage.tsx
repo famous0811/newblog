@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { useTranslation } from "react-i18next";
 
 import Me from "../res/img/allblack.jpg";
 import ConnecText from "../res/img/connecText_main.png";
@@ -9,13 +8,9 @@ import Github from "../res/img/GitHub-Mark.png";
 import Project from "../components/Project";
 
 function Mainpage() {
-  const { t, i18n } = useTranslation();
   const contents = useRef<HTMLDivElement>(null);
   const mydata = useRef<HTMLDivElement>(null);
   const myintro = useRef<HTMLDivElement>(null);
-  function SettingLange(lan: string) {
-    i18n.changeLanguage(lan);
-  }
   function scolltotest(body: React.RefObject<HTMLDivElement>) {
     if (!body.current) {
       alert("none");
@@ -58,14 +53,10 @@ function Mainpage() {
         </div>
         <div className="myintro" ref={myintro}>
           <p>
-            안녕하세요 저는 Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Nobis vel odit reprehenderit modi, reiciendis cum nemo earum.
-            Odit explicabo deserunt repellat minus, expedita accusamus
-            reiciendis ipsa voluptatum velit, corporis similique. Lorem ipsum
-            dolor, sit amet consectetur adipisicing elit. Ipsam eaque hic
-            reprehenderit quisquam sit ex eligendi. Quidem doloremque adipisci
-            cumque, voluptas aliquam sint voluptatum reiciendis, obcaecati rem
-            quos incidunt consectetur?
+            안녕하세요 저는 react를 주력으로 하는 front-end 개발공부하는 학생
+            입니다. 원래 react-typescript+scss를 이용해서 개발을 해왔고 요즘은
+            next.js도 연습하는 중입니다. 그리고 풀스택을 위해 node.js도 연습하고
+            있습니다.
           </p>
         </div>
         <div className="contents" ref={contents}>
